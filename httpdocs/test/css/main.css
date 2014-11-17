@@ -1,0 +1,313 @@
+﻿html,
+body {
+font-family:'Open Sans', sans-serif;
+font-size:20px;
+color:#404040;
+position: relative; 
+}
+
+p{
+line-height:1.5;
+margin:30px 0;
+font-size:16px;
+}
+
+h2 {
+font-size: 25px
+}
+
+@media only screen and (min-width:768px){
+p{
+line-height:1.5;
+margin:30px 0;
+font-size:20px;
+}
+
+h2 {
+font-size: 30px
+}}
+
+p a{
+text-decoration:underline
+}
+
+@container-tablet ((720px + @grid-gutter-width))
+
+h2,h3,h4,h5,h6{
+font-family:'Open Sans', sans-serif;
+}
+
+a:hover,a:focus{
+color:#0085a1
+}
+
+blockquote{
+color:gray;font-style:italic
+}
+
+hr.small{
+max-width:100px;
+margin:15px auto;
+border-width:4px;
+border-color:#fff
+}
+ 
+ h3{
+	font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+	text-transform:uppercase;
+	font-size:15px;  
+	color:#829B3F;
+	letter-spacing:2px;
+ }
+ 
+ .navbar-fixed-top{
+top:0;
+left:0;
+width:100%;
+z-index:3;
+font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif
+}
+
+.navbar-fixed-top .nav li a{
+text-transform:uppercase;
+font-size:12px;
+font-weight:800;
+letter-spacing:1px;
+color:#ffff;
+padding:20px
+}
+
+
+.navbar-fixed-top .nav li a:hover,.navbar-fixed-top.nav li a:focus{
+color:#849E3F
+}
+
+@media(min-width:767px){
+.navbar-fixed-top{
+-webkit-transition:background-color .3s;
+-moz-transition:background-color .3s;
+transition:background-color .3s;
+-webkit-transform:translate3d(0,0,0);
+-moz-transform:translate3d(0,0,0);
+-ms-transform:translate3d(0,0,0);
+-o-transform:translate3d(0,0,0);
+transform:translate3d(0,0,0);
+-webkit-backface-visibility:hidden;
+backface-visibility:hidden;
+-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.navbar {
+padding: 0;
+-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+-moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+padding: 0;
+}}
+
+.intro-header{
+background-color:gray;
+background:no-repeat;
+background-attachment:fixed;
+background-position:68% 50%;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+background-size:cover;
+-o-background-size:cover;
+margin-bottom:50px;
+text-shadow: black 0.2em 0.2em 0.3em;
+}
+
+.intro-header .site-heading,.intro-header .post-heading,.intro-header .page-heading{
+padding:100px 0 50px;
+color:#fff
+}
+
+@media only screen and (min-width:768px){
+.intro-header .site-heading,.intro-header .post-heading,.intro-header .page-heading{
+padding:150px 0
+}}
+
+.intro-header .site-heading,.intro-header .page-heading{
+text-align:center
+}
+
+.intro-header .post-heading h1{
+font-size:35px
+}
+
+.intro-header .post-heading .subheading,.intro-header .post-heading .meta
+{line-height:1.1;
+display:block
+}
+
+.intro-header .post-heading .subheading{
+font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+font-size:20px;
+margin:10px 0 30px;
+font-weight:600
+}
+
+.intro-header .post-heading .meta a{
+color:#fff
+}
+@media only screen and (min-width:768px){
+.intro-header .post-heading h1{
+font-size:55px
+}
+
+.intro-header .post-heading .subheading{
+font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+font-size:24px;
+margin:10px 0 30px;
+font-weight:600
+}}
+
+.koristi h3 {
+	color:#404040;
+	font-size:25px;
+	padding-top: 2%;
+	padding-bottom: 4%;
+	text-align: center;
+}
+
+.koristi p {
+text-align: center;
+font-size:16px;
+}
+
+.koristi .thumbnail{
+    width: 100%;
+    overflow: auto;
+	border: 0 none;
+    box-shadow: none;
+}
+
+.napisi p{
+	text-align: justify;
+}
+
+.aplikacija{
+padding-top:2%
+}
+
+.aplikacija .thumbnail{
+    width: 100%;
+    overflow: auto;
+	border: 0 none;
+    box-shadow: none;
+}
+
+
+.poslanstvo h1,.caption h1, .kontakt h1, .blog h1{
+font-size: 30px
+}
+
+.blog p {
+font-size:16px;
+}
+
+@media only screen and (min-width:768px){
+.aplikacija .thumbnail.left-caption > img {
+    float: right;
+}
+
+.poslanstvo h1,.caption h1, .kontakt h1, .blog h1{
+font-size: 35px
+}
+
+.blog p {
+font-size:20px;
+}
+
+.aplikacija .thumbnail.left-caption > .caption {
+    padding: 4px;
+}
+
+.aplikacija .thumbnail{
+    width: 100%;
+    overflow: auto;
+	border: 0 none;
+    box-shadow: none;
+}
+
+.napoved .caption {
+float: right
+}
+
+.aplikacija .thumbnail img{
+	max-width: 40%
+}
+.aplikacija .caption{
+max-width: 55%
+}
+
+.aplikacija .thumbnail.right-caption > img {
+    float: left;
+	padding-left: 12%
+}
+
+.aplikacija .thumbnail.right-caption > .caption {
+    padding: 4px;
+}}
+
+
+.napoved{
+padding-top: 5%;
+}
+
+.dnevnik{
+padding-top: 5%;
+padding-bottom: 5%;
+}
+
+.kontakt{
+	padding-top: 2%;
+	background-color: #F8F3C3;
+	padding-bottom: 2%;
+} 
+ 
+#mc_embed_signup{
+	background:#F8F3C3;
+	clear:left; 
+	font:20px 'Open Sans', sans-serif;
+	width: 400px
+	}
+
+.blog{
+	padding-top: 2%;
+	padding-bottom: 4%;
+}
+	
+.ekipa{
+	padding-top: 2%;
+	padding-bottom: 4%;
+	}
+	
+.ekipa p {
+text-align: center !important;
+}
+
+.opis{
+	padding-top: 2%;
+}
+
+footer{
+padding:50px 0 65px
+}
+
+footer.list-inline{
+margin:0;
+padding:0
+}
+
+footer .copyright{
+font-size:14px;
+text-align:center;
+margin-bottom:0
+}
