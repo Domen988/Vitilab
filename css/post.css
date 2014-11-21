@@ -204,6 +204,25 @@ margin-top:60px;
 font-weight:600
 }}
 
+.sharebtn .ul{
+ list-style-type: none; 
+}
+
+.affix-top{
+top: 200px;
+position: fixed; 
+list-style-type: none;
+padding-left: 0;
+}
+
+.affix{
+top: 200px;
+position: fixed; 
+list-style-type: none;
+float: left;
+padding-left: 0;
+}
+
 .caption{
 text-align:center;
 font-size:14px;
