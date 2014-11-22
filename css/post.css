@@ -204,6 +204,12 @@ margin-top:60px;
 font-weight:600
 }}
 
+.modal-title img{
+max-height: 38px ;
+float: left;
+padding-right: 10px
+ }   
+
 .sharebtn {
 top: 200px;
 padding: 0;
@@ -211,7 +217,7 @@ float: left;
 } 
 
 .sharebtn .btn-block{
- max-width: 32px
+ max-width: 35px
     
 }
 
@@ -233,8 +239,7 @@ top: 200px;
 position: fixed; 
 list-style-type: none;
 float: left;
-padding-left: 0;
-}
+padding-left: 0;}
 
 .caption{
 text-align:center;

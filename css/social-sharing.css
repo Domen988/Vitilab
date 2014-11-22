@@ -34,18 +34,7 @@
     background: #ba3225;
     color: #fff
 }
-.btn-stumbleupon {
-    background: #f74425;
-    border-radius: 0;
-    color: #fff
-}
-.btn-stumbleupon:link, .btn-stumbleupon:visited {
-    color: #fff
-}
-.btn-stumbleupon:active, .btn-stumbleupon:hover {
-    background: #c7371e;
-    color: #fff
-}
+
 .btn-linkedin {
     background: #0e76a8;
     border-radius: 0;
@@ -57,4 +46,17 @@
 .btn-linkedin:active, .btn-linkedin:hover {
     background: #0b6087;
     color: #fff
+}
+
+.btn-custom{
+background: #78a23f;
+border-radius: 0;
+color: #fff;
+border: #78a23f;
+}
+
+.btn-custom:active, .btn-custom:hover {
+    background: #486125;
+    color: #fff;
+    border-color: #486125
 }
