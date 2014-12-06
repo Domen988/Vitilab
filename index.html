@@ -20,7 +20,8 @@
 		
 		<!-- font awesome -->
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-		
+      
+     	
 		<!-- main css -->
 		<link rel="stylesheet" href="css/main.css">
 		 
@@ -187,6 +188,21 @@
 					<p> Preberi zadnje objave na Vitilab blogu. </p>
 					<div class="row text-center">
                         
+                        
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="thumbnail">
+								<img src="pics/peronospora_m.jpg" alt="peronospora">
+								<div class="caption">
+									<h2>Peronospora - primarna infekcija</h2>
+									<p>Kako peronospra prezimi in kako spomladi okuži vinsko trto?</p>
+									<p>
+										<a href="http://vitilab.com/post.html#peronospora_primarna_infekcija" class="btn btn-primary">Preberi več!</a> 
+									</p>
+								</div>
+							</div>
+						</div>
+                        
+                        
                         <div class="col-md-3 col-sm-6 col-xs-12">
 							<div class="thumbnail">
 								<img src="pics/klima_c_m.jpg" alt="">
@@ -226,19 +242,6 @@
 							</div>
 						</div>
 						
-						<div class="col-md-3 col-sm-6 col-xs-12">
-							<div class="thumbnail">
-								<img src="pics/obdelava_tal_m.jpg" alt="">
-								<div class="caption">
-									<h2>Obdelava tal v vinogradu</h2>
-									<p>Tla so eden od ključnih dejavnikov, ki vplivajo na kakovost vina.</p>
-									<p>
-										<a href="http://vitilab.com/post.html#obdelava_tal" class="btn btn-primary">Preberi več!</a> 
-									</p>
-								</div>
-							</div>
-						</div>
-                        
 					</div> 
 				</div>
 			</div>
@@ -306,7 +309,8 @@
 			</div>
 		</footer>
           
-		
+	
+        
 	<!-- fb script-->
 	<div id="fb-root"></div>
 		<script>(function(d, s, id) {
@@ -316,10 +320,11 @@
 		js.src = "//connect.facebook.net/sl_SI/sdk.js#xfbml=1&version=v2.0";
 		fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));</script>
+    
 		
 	<!-- google analytics script-->	    
     
-<script>
+        <script>
 
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -328,9 +333,30 @@
 
       ga('create', 'UA-53927217-1', 'auto');
       ga('send', 'pageview');
+      ga('send', {
+        'hitType': 'social',
+        'socialNetwork': 'facebook',
+        'socialAction': 'like',
+        'socialTarget': 'http://mycoolpage.com',
+        'page': '/my-new-page'
+      });
+        </script>    
         
-  
-</script>        
+        <!-- tracking fb button-->	   
+        <script>
+        FB.Event.subscribe('edge.create', function(https://www.facebook.com/lessspraying?ref=hl) {
+  ga('send', 'social', 'facebook', 'like', targetUrl);
+});     
+        FB.Event.subscribe('edge.remove', function(https://www.facebook.com/lessspraying?ref=hl) {
+  _gaq.push(['_trackSocial', 'facebook', 'unlike', targetUrl]);
+});
+            
+            FB.Event.subscribe('message.send', function(https://www.facebook.com/lessspraying?ref=hl) {
+  _gaq.push(['_trackSocial', 'facebook', 'send', targetUrl]);
+});
+            
+        </script>
+        
         
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 	<script src="js/jquery.cookie.js"></script>
