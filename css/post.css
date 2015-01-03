@@ -216,8 +216,8 @@ padding: 0;
 float: left;
 } 
 
-.sharebtn .btn-block{
- max-width: 35px
+.sharebtn .btn{
+ max-width: 64px
     
 }
 
